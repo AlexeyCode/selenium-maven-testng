@@ -44,5 +44,7 @@ public class FirstTest extends FrameWork {
         findAndClickElementByXpath("//button[text()=\"Apply settings\"]");
 
         driver.quit();
+
+        System.out.println("Tests successfully passed");
     }
 }
